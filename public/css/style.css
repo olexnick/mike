@@ -1,0 +1,99 @@
+.header {
+  background-color: #f1f4f9;
+  height: 47px;
+  font-size: 12px; }
+
+.header-login {
+  text-align: center;
+  border-left: 1px solid #dde2e8; }
+
+.header-sing {
+  text-align: center;
+  border-left: 1px solid #dde2e8; }
+
+.header-call {
+  border-left: 1px solid #dde2e8; }
+
+.header-btn {
+  height: 100%;
+  float: left;
+  padding: 5px 0 5px 0;
+  border-left: 1px solid #dde2e8; }
+
+.btn-mesage {
+  width: 127px;
+  height: 37px;
+  background-color: #ff551a;
+  color: white !important;
+  text-decoration-color: white !important;
+  border-radius: 0px !important; }
+
+.header-logo {
+  height: 47px;
+  background-color: white; }
+
+.header-bottom-nav-left {
+  border-top: 1px solid #dde2e8;
+  border-bottom: 1px solid #e5e5e3; }
+
+.header-bottom-nav-right {
+  border-top: 1px solid #dde2e8;
+  border-bottom: 1px solid #e5e5e3; }
+
+.header-bottom-nav {
+  height: 37px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #dde2e8;
+  border-bottom: 1px solid #e5e5e3;
+  background-color: white !important; }
+  .header-bottom-nav i {
+    font-size: 16px; }
+  .header-bottom-nav a {
+    color: #7e8c99 !important; }
+
+.dropdown-toggle::after {
+  display: none !important; }
+
+.navbar-brand-menu {
+  display: none !important; }
+
+.nav-item-li-zero {
+  padding-right: 36px;
+  text-align: center;
+  border-right: 1px solid #dde2e8; }
+
+.nav-item-li-first {
+  width: 21.28%;
+  text-align: center;
+  border-right: 1px solid #dde2e8; }
+
+.nav-item-li-second {
+  width: 21%;
+  text-align: center;
+  border-right: 1px solid #dde2e8; }
+
+.nav-item-li-therd {
+  width: 21.28%;
+  text-align: center;
+  border-right: 1px solid #dde2e8; }
+
+.nav-item-li-four {
+  width: 11.27%;
+  text-align: center;
+  border-right: 1px solid #dde2e8; }
+
+.nav-item-li-five {
+  width: 11.38%;
+  text-align: center;
+  border-right: 1px solid #dde2e8; }
+
+.nav-item-li-six {
+  padding-left: 30px; }
+
+.navbar-nav-ul {
+  width: 100%; }
+
+.heder-img {
+  width: 100%; }
