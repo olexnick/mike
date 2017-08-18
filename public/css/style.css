@@ -169,5 +169,32 @@
 .community-sections {
   background-color: #eff3f5; }
 
-.community-btn {
-  float: left; }
+.sections-tabs {
+  width: 100%;
+  float: left;
+  padding-top: 4.1%;
+  padding-bottom: 11.65%;
+  background-color: #eff3f5; }
+
+.sections-tabs ul {
+  width: 100%;
+  height: 51px; }
+  .sections-tabs ul li {
+    height: 51px;
+    width: calc(100%/6);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background-color: white; }
+  .sections-tabs ul a {
+    height: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    color: #535f6e; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: white !important;
+  background-color: #535f6e !important;
+  border-color: #ddd #ddd #fff; }
