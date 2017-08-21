@@ -1,0 +1,146 @@
+.bg {
+  background: url('./center.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 370px; /*same height as jumbotron */
+  top: 150px;
+  left:0;
+  z-index: -1;
+}
+
+.jumbotron {
+  height: 350px;
+  /*color: white;*/
+  text-shadow: #444 0 1px 1px;
+  background-color: transparent !important;
+  /*background:transparent;*/
+}
+.fff{
+  position: fixed;
+}
+
+
+.version2{
+  top: 400px;
+  width: 100%;
+  height: 370px;
+  position: relative;
+  background: url('./title.jpg') no-repeat center center;
+  overflow:hidden;
+  color: red;
+  font-size: 20px;
+
+}
+.text{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+}
+.version3{
+  top: 1500px;
+  width: 100%;
+  height: 100%;
+  /*background: url('./center.jpg') no-repeat center center;*/
+  position: absolute;
+}
+
+
+
+
+
+
+
+/* navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 10007;
+}
+.content-block-one {
+  padding: 30px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+  border-top-color: #d5d5d5;
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 63px;
+  }
+}
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/0033cc/ffffff) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hdhd{}
