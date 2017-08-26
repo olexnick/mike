@@ -1,27 +1,36 @@
-$(window).scroll(function(){
+// $(window).scroll(function(){
+//
+//   var st = $(this).scrollTop();
+//   console.log(st, "сдвиг по высоте");
+//   $(".text").css({
+//     "transform" : "translate3d(0px,  " + st/15  + "%, .01px)",
+// 		"-webkit-transform" : "translate3d(0px,  " + st/15  + "%, .01px)"
+//   });
+//
+//
+//   var st2 = $(this).scrollTop();
+//   $(".head-parallax img").css({
+//     "transform" : "translate3d(0px,  - " + st2/10 + "%, .01px)",
+// 		"-webkit-transform" : "translate3d(0px,  -"  + st2/10  + "%, .01px)",
+//     "top" :  - st2/80  + "%",
+//   });
+//
+//   var st3 = $(this).scrollTop();
+//   $(".head-parallax-carosel").css({
+//     "transform" : "translate3d(0px,  - " + st3/10 + "%, .01px)",
+// 		"-webkit-transform" : "translate3d(0px,  -"  + st3/10  + "%, .01px)",
+//     "top" :  - st3/80  + "%",
+//   });
+//   console.log(st3/80, "состояние высоты картинки");
+//
+//
 
-  var st = $(this).scrollTop();
-  console.log(st, "сдвиг по высоте");
-  $(".text").css({
-    "transform" : "translate3d(0px,  " + st/15  + "%, .01px)",
-		"-webkit-transform" : "translate3d(0px,  " + st/15  + "%, .01px)"
-  });
 
 
-  var st2 = $(this).scrollTop();
-  $(".head-parallax img").css({
-    "transform" : "translate3d(0px,  - " + st2/10 + "%, .01px)",
-		"-webkit-transform" : "translate3d(0px,  -"  + st2/10  + "%, .01px)",
-    "top" :  - st2/80  + "%",
-  });
 
-  var st3 = $(this).scrollTop();
-  $(".head-parallax-carosel").css({
-    "transform" : "translate3d(0px,  - " + st3/10 + "%, .01px)",
-		"-webkit-transform" : "translate3d(0px,  -"  + st3/10  + "%, .01px)",
-    "top" :  - st3/80  + "%",
-  });
-  console.log(st3/80, "состояние высоты картинки");
+
+
+
 
 
   // var jumboHeight = $('.head-parallax-wrapper').outerHeight();
@@ -55,9 +64,35 @@ $(window).scroll(function(){
 
 
 
+// 
+// });
+// $('.parallax-window').parallax({imageSrc: "./img/center.jpg"});
+//
+//
 
-});
-$('.parallax-window').parallax({imageSrc: "./img/center.jpg"});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // var jumboHeight = $('.').outerHeight();
 // console.log(jumboHeight, "до высота");
