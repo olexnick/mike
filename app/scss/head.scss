@@ -21,7 +21,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     float: left;
-    padding-top: 15px;
+    padding-top: 19px;
     text-align: center;
 }
 .header-sing{
@@ -33,19 +33,18 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     float: left;
-    padding-top: 15px;
+    padding-top: 19px;
     text-align: center;
 }
-
 .head-call{
   width: 215px;
   height: 47px;
   float: left;
   border-left: 1px solid rgb(221,226,232);
   padding-left: 28px;
+  padding-top: 5px;
   i{
     float: left;
-    padding-top: 5px;
     font-size: 34px;
     color: rgb(146, 157, 169);
   }
@@ -60,7 +59,7 @@
     color: rgb(146, 157, 169);
   }
   span:last-child{
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Open Sans', sans-serif;
     float: left;
     font-weight: bold;
@@ -76,11 +75,10 @@
   width: 127px;
   height: 37px;
   background-color: rgb(255, 85, 26);
-  color: rgb(255, 255, 255) !important;
-  text-decoration-color: rgb(255, 255, 255) !important;
-  border-radius: 0px !important;
+  color: rgb(255, 255, 255);
+  text-decoration-color: rgb(255, 255, 255);
+  border-radius: 0px;
 }
-
 @media only screen and (max-width: 1024px){
   .header-login{
     width: 75px;
@@ -108,14 +106,38 @@
     }
   }
 }
-@media only screen and (max-width: 970px){
-
-}
 @media only screen and (max-width: 768px){
-
-
-
-}
-@media only screen and (max-width: 414px){
-
+  .head-text-left{
+    span{
+      padding-top: 19px;
+      font-size: 10px;
+    }
+  }
+  .header-login{
+    font-size: 10px;
+  }
+  .header-sing{
+    font-size: 10px;
+  }
+  .head-call{
+    width: 113px;
+    i{
+      padding-left: 0px;
+      font-size: 20px;
+    }
+  }
+  .head-call-text {
+    padding-left: 22px;
+    span:last-child{
+      font-size: 12px;
+    }
+  }
+  .head-btn {
+    float: left;
+    padding: 5px 0 5px 5px;
+  }
+  .btn-mesage {
+    width: 91px;
+    font-size: 11px;
+  }
 }

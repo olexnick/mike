@@ -1,0 +1,113 @@
+.head-parallax-wrapper{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.head-parallax-button-wrapper{
+  height: 96px;
+  width: 67%;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  z-index: 30;
+  background-color: rgba(63, 163, 217, 0.8);
+  border-radius: 5px;
+  padding-left: 35px;
+  padding-top: 30px;
+  >button{
+    margin-left: 15px;
+    background-color: rgb(255, 85, 26);
+    box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color : rgb(255, 255, 255);
+    height: 39px;
+  }
+}
+.head-parallax-button{
+  width: 71%;
+  height: 38px;
+  float: left;
+  padding-top: 1px;
+  background-color: rgb(77, 130, 164);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
+  button{
+    float: left;
+    background-color: rgb(67, 80, 97);
+    color : rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+    height: 36px;
+  }
+  input{
+    width: 79.1%;
+    float: left;
+    height: 36px;
+    border: none;
+    background-color: rgb(172, 218, 243);
+    color:  rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &::-webkit-input-placeholder{
+      color:  rgb(255, 255, 255);
+    }
+  }
+}
+@media only screen and (max-width: 1024px){
+  .head-parallax-button {
+    height: 36px;
+    button{
+      font-size: 12px;
+    }
+    input{
+      width: 76.99999%;
+      height: 35px;
+      font-size: 10.5px;
+    }
+  }
+  .head-parallax-button-wrapper{
+    button{
+      font-size: 11px;
+      padding: 3px 12px;
+      height: 35px;
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  .head-parallax-button {
+    height: 36px;
+    button{
+      font-size: 10px;
+    }
+    input{
+      width: 72.99999%;
+      height: 35px;
+      font-size: 8.5px;
+    }
+  }
+  .head-parallax-button-wrapper{
+    button{
+      font-size: 9px;
+      padding: 2px 12px;
+      height: 35px;
+    }
+  }
+  .head-parallax-button-wrapper{
+     button:last-child{
+      margin-left: 5px;
+    }
+  }
+}

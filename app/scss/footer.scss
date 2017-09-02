@@ -1,0 +1,255 @@
+.footer{
+  height: 914px;
+  float: left;
+  color: rgb(255,255,255);
+  padding-left: 0px;
+  background: url("./../img/foter.jpg") no-repeat center center;
+}
+.foter-top{
+  width: 100%;
+  height: 135px;
+  float: left;
+}
+.footer-warapper-right{
+  float: left;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.footer-right-center{
+  height: 635px;
+  width: 100%;
+  float: left;
+  background-color: rgba(66, 79, 97, 0.77);
+}
+.footer-center{
+  height: 635px;
+  float: left;
+  background-color: rgba(66, 79, 97, 0.77);
+}
+.footer-center-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.footer-center-text{
+  height: 330px;
+  background-color: rgba(52, 62, 75, 0.79);
+  p{
+    float: left;
+    padding-left: 11px;
+    padding-top: 13px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+.footer-logo{
+  float: left;
+  a{
+    width: 100%;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+  span{
+    width: 80%;
+    float: left;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+.connect{
+  padding-top: 39px;
+  span {
+    width: 100%;
+    float: left;
+    margin-bottom: 36px;
+  }
+  >a{
+    padding-right: 13px;
+  }
+}
+.footer-left{
+  height: 635px;
+  background-color: rgba(50, 164, 226, 0.76);
+}
+.footer-left-top{
+  float: left;
+  padding-top:53px;
+  padding-bottom: 36px;
+  >span{
+    width: 100%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 28px;
+  }
+}
+.footer-img{
+  width: 38%;
+  float: left;
+}
+.footer-left-mail{
+  width: 62%;
+  float: left;
+  p{
+    width: 100%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    span{
+      font-weight: normal;
+    }
+  }
+  >span{
+    width: 100%;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+.footer-left-botton{
+  >span{
+    width: 100%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+}
+.footer-left-botton-text{
+  float: left;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(14, 144, 217);
+  span{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.8;
+  }
+}
+.footer-left-botton{
+  width: 100%;
+  float: left;
+  padding-top: 11px;
+  button{
+    width: 307px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    color: rgb(14, 144, 217);
+    border: none;
+  }
+}
+.footer-logo-booton{
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+  img{
+    padding-left: 7px;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .foter-top{
+    height: 0px;
+  }
+  .footer-center-title{
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .footer-center-text p{
+    font-size: 15px;
+  }
+  .footer-logo a{
+    margin-top: 5px;
+    img{
+     width: 90%;
+   }
+  }
+  .connect{
+    font-size: 14px;
+    > a{
+      padding-right: 2px;
+    }
+  }
+  .footer-left-top > span{
+    font-size: 15px;
+  }
+  .footer-img img{
+    width: 100%;
+  }
+  .footer-left-mail{
+    padding-left: 5px;
+    p{
+     font-size: 16px;
+   }
+   > span{
+     font-size: 12px;
+   }
+  }
+  .footer-left-botton > span{
+    font-size: 12px;
+  }
+  .footer-left-botton-text span{
+    font-size: 12px;
+  }
+  .footer-left-botton button{
+    width: 230px;
+  }
+  .footer-logo-booton {
+      img{
+          width:40px;
+        }
+      img:last-child{
+        width:80px;
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  .footer-logo span{
+    font-size: 10px;
+  }
+  .connect{
+    font-size:10px;
+    img{
+      width: 19px;
+    }
+  }
+
+  .footer-left-top > span{
+    font-size: 10px;
+  }
+  .footer-left-mail > span{
+    font-size: 11px;
+  }
+  .footer-left-botton-text {
+      p{
+        font-size: 11px;
+      }
+      span{
+      font-size: 11px;
+    }
+  }
+  .footer-left-botton button{
+    width: 166px;
+    font-size: 11px;
+  }
+  .footer-logo-booton{
+    img{
+      width: 30px;
+    }
+    img:last-child{
+      width:52px;
+    }
+  }
+}

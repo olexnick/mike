@@ -1,0 +1,63 @@
+.sections-slider{
+  padding-bottom: 127px;
+}
+.carousel-wrapper{
+  border: 15px solid rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-indicators .active{
+  background-color: rgb(49, 162, 225) !important;
+}
+.carousel-indicators li {
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.sections-slider-left{
+  padding-top: 15px;
+  >span{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 21px;
+      font-weight: bold;
+  }
+  >p{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    font-weight: normal;
+    line-height: 21px;
+    }
+}
+.sections-slider-left-icon{
+  padding-top: 40px;
+  span{
+    float: left;
+    padding-bottom: 58px;
+  }
+}
+.sections-slider-left-text{
+  padding-top: 40px;
+  span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    font-weight: normal;
+    line-height: 21px;
+  }
+}
+.sections-slider-left-text-botton{
+  padding-top: 55px;
+}
+@media only screen and (max-width: 1024px){
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    width: 100%;
+  }
+}

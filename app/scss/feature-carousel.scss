@@ -1,0 +1,36 @@
+.feature-part-two{
+  padding-top: 60px;
+}
+.carousel-group-img{
+  float: left;
+  width: 20%;
+  padding-left: 2px;
+}
+.carousel-img{
+  padding-bottom: 3px;
+  width: 100%;
+}
+.carousel-img-center{
+  float: left;
+  width: 100%;
+}
+.carousel-control .glyphicon-left, .carousel-control .glyphicon-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+  top:-11%;
+}
+.carousel-control .glyphicon-left, .carousel-control .icon-prev {
+    margin-left: 310%;
+}
+.carousel-control .glyphicon-right, .carousel-control .icon-prev {
+    margin-left: -555%;
+}
+@media only screen and (max-width: 768px){
+  .carousel-control .glyphicon-left, .carousel-control .glyphicon-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    top:-16%;
+  }
+  .carousel-control .glyphicon-left, .carousel-control .icon-prev {
+      margin-left: 298%;
+  }
+  .carousel-control .glyphicon-right, .carousel-control .icon-prev {
+      margin-left: -543%;
+  }
+}

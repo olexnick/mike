@@ -7,16 +7,10 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
   },
-  "devDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.5"
-  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run server & npm run compile",
-    "compile": "webpack --watch",
-    "server": "webpack-dev-server --hot --inline"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alex Gorovikh",
+  "author": "olexnick",
   "license": "ISC"
 }
