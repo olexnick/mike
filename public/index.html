@@ -17,6 +17,36 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <!-- message -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1 md-hidden sm-hidden xs-hidden"></div>
+      <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+        <div class="wrapper-message">
+          <div class="wrapper-message-icon">
+            <i class="fa fa-times-circle-o fa-2x" aria-hidden="true"></i>
+          </div>
+          <div class="message">
+            <div class="message-sent-text"><span>Message sent</span></div>
+            <div class="message-input-wrapper">
+             <span>Consultation of a specialist</span>
+             <p>Enter the information to contact us:</p>
+             <div class="message-input">
+               <input type="text" id="btn-name" placeholder="Name"/>
+               <span id="err_name">Enter Name</span>
+               <input type="text" id="btn-call" placeholder="+38(0__)___- __- __" />
+               <span id="err_call">Enter phone number</span>
+               <textarea name="comment" id="btn-text" cols="25" rows="4" placeholder="Enter question"></textarea>
+               <span id="err_question">Enter phone question</span>
+               <button class="send-messag">SEND</button>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1 md-hidden sm-hidden xs-hidden"></div>
+    </div>
+  </div>
   <!-- head -->
   <div class="container-fluid head">
     <div class="row">
@@ -880,7 +910,7 @@
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d57062.13132727985!2d-95.88072093181968!3d41.266231756545174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1503391253457" width="650" height="570" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d57062.13132727985!2d-95.88072093181968!3d41.266231756545174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1503391253457" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -1020,6 +1050,6 @@
    </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-   <script src="./main.js"></script>
+   <script src="./js/main.js"></script>
   </body>
 </html>
