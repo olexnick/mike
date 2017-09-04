@@ -15,8 +15,8 @@
   float: left;
   height: 20px;
   z-index: 51;
-  top: 370px;
-  left: 1166px;
+  top: 5px;
+  right: 5px;
   color: silver; }
 
 .message {
@@ -27,8 +27,8 @@
   border: 1px solid silver;
   border-top: 3px solid silver;
   background-color: #fff;
-  top: 390px;
-  left: 900px;
+  top: 25px;
+  right: 25px;
   z-index: 50;
   border-radius: 5px;
   text-align: center; }
@@ -96,7 +96,7 @@
     padding-top: 15px; }
 
 .header-login {
-  width: 85px;
+  width: 15.9%;
   height: 47px;
   border-left: 1px solid #dde2e8;
   font-size: 12px;
@@ -108,7 +108,7 @@
   text-align: center; }
 
 .header-sing {
-  width: 79px;
+  width: 14.9%;
   font-size: 12px;
   height: 47px;
   border-left: 1px solid #dde2e8;
@@ -120,7 +120,7 @@
   text-align: center; }
 
 .head-call {
-  width: 215px;
+  width: 40.3%;
   height: 47px;
   float: left;
   border-left: 1px solid #dde2e8;
@@ -134,6 +134,7 @@
 .head-call-text {
   padding-left: 35px; }
   .head-call-text span:first-child {
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 11px;
@@ -156,8 +157,7 @@
   height: 37px;
   background-color: #ff551a;
   color: white;
-  -webkit-text-decoration-color: white;
-          text-decoration-color: white;
+  text-decoration-color: white;
   border-radius: 0px; }
 
 @media only screen and (max-width: 1024px) {
@@ -178,7 +178,11 @@
       padding-top: 5px;
       font-size: 8px; }
     .head-call-text span:last-child {
-      font-size: 18px; } }
+      font-size: 18px; }
+  .head-left {
+    min-height: 0px; }
+  .head-right {
+    min-height: 0px; } }
 
 @media only screen and (max-width: 768px) {
   .head-text-left span {
@@ -343,31 +347,10 @@
   background-color: rgba(63, 163, 217, 0.8);
   border-radius: 5px;
   padding-left: 35px;
-  padding-top: 30px; }
-  .head-parallax-button-wrapper > button {
-    margin-left: 15px;
-    background-color: #ff551a;
-    -webkit-box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
-            box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    height: 39px; }
-
-.head-parallax-button {
-  width: 71%;
-  height: 38px;
-  float: left;
-  padding-top: 1px;
-  background-color: #4d82a4;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  -webkit-box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
-          box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5); }
-  .head-parallax-button button {
+  padding-top: 30px;
+  box-shadow: 0px 6px 0px 0px #4d82a4; }
+  .head-parallax-button-wrapper button:first-child {
+    width: 14%;
     float: left;
     background-color: #435061;
     color: white;
@@ -377,52 +360,63 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border: none;
-    height: 36px; }
-  .head-parallax-button input {
-    width: 79.1%;
+    height: 36px;
+    box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+    outline: 0 !important; }
+  .head-parallax-button-wrapper input {
+    width: 60.1%;
     float: left;
     height: 36px;
     border: none;
-    background-color: #acdaf3;
+    background-color: #5c7596;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
     padding-left: 7px;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px; }
-    .head-parallax-button input::-webkit-input-placeholder {
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+    outline: 0 !important; }
+    .head-parallax-button-wrapper input::-webkit-input-placeholder {
       color: white; }
+  .head-parallax-button-wrapper button:last-child {
+    width: 23.2%;
+    margin-left: 15px;
+    background-color: #ff551a;
+    box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    height: 36px;
+    outline: 0 !important; }
+
+.head-parallax img {
+  width: 100%; }
 
 @media only screen and (max-width: 1024px) {
-  .head-parallax-button {
-    height: 36px; }
-    .head-parallax-button button {
-      font-size: 12px; }
-    .head-parallax-button input {
-      width: 76.99999%;
-      height: 35px;
-      font-size: 10.5px; }
-  .head-parallax-button-wrapper button {
+  .head-parallax-button-wrapper button:first-child {
+    font-size: 11px; }
+  .head-parallax-button-wrapper button:last-child {
     font-size: 11px;
     padding: 3px 12px;
-    height: 35px; } }
+    height: 35px; }
+  .head-parallax-button-wrapper input {
+    font-size: 10.5px;
+    height: 36px; } }
 
 @media only screen and (max-width: 768px) {
-  .head-parallax-button {
-    height: 36px; }
-    .head-parallax-button button {
-      font-size: 10px; }
-    .head-parallax-button input {
-      width: 72.99999%;
-      height: 35px;
-      font-size: 8.5px; }
-  .head-parallax-button-wrapper button {
-    font-size: 9px;
-    padding: 2px 12px;
-    height: 35px; }
+  .head-parallax-button-wrapper button:first-child {
+    font-size: 7px; }
   .head-parallax-button-wrapper button:last-child {
-    margin-left: 5px; } }
+    font-size: 7px;
+    padding: 2px 12px;
+    height: 35px;
+    margin-left: 5px; }
+  .head-parallax-button-wrapper input {
+    font-size: 7.5px;
+    height: 36px; } }
 
 .body-wraper {
   width: 100%;
@@ -440,6 +434,7 @@
   font-weight: bold; }
 
 .body-text {
+  width: 100%;
   float: left;
   font-size: 12px;
   padding-top: 3.7%;
@@ -790,6 +785,8 @@
 .carousel-wrapper {
   border: 15px solid white;
   border-bottom-color: white; }
+  .carousel-wrapper img {
+    width: 100%; }
 
 .carousel-control.right {
   background-image: none; }
@@ -880,6 +877,8 @@
   padding-bottom: 91px; }
 
 .emerald-left-text-top {
+  width: 100%;
+  float: left;
   padding-top: 10px; }
   .emerald-left-text-top :first-child {
     color: #31a2e1;
@@ -963,8 +962,6 @@
 
 .emerald-btn {
   border-radius: 0px !important;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #51c1ff), to(#51c1ff)) !important;
-  background-image: -o-linear-gradient(top, #51c1ff 0, #51c1ff 100%) !important;
   background-image: linear-gradient(to bottom, #51c1ff 0, #51c1ff 100%) !important;
   background-color: #51c1ff !important; }
 

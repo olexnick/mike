@@ -13,7 +13,7 @@
   }
 }
 .header-login{
-    width: 85px;
+    width: 15.9%;
     height: 47px;
     border-left: 1px solid rgb(221,226,232);
     font-size: 12px;
@@ -25,7 +25,7 @@
     text-align: center;
 }
 .header-sing{
-    width: 79px;
+    width: 14.9%;
     font-size: 12px;
     height: 47px;
     border-left: 1px solid rgb(221,226,232);
@@ -37,7 +37,7 @@
     text-align: center;
 }
 .head-call{
-  width: 215px;
+  width: 40.3%;
   height: 47px;
   float: left;
   border-left: 1px solid rgb(221,226,232);
@@ -52,6 +52,7 @@
 .head-call-text{
   padding-left: 35px;
   span:first-child{
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 11px;
@@ -105,6 +106,13 @@
       font-size: 18px;
     }
   }
+  .head-left{
+    min-height: 0px;
+  }
+  .head-right{
+    min-height: 0px;
+  }
+
 }
 @media only screen and (max-width: 768px){
   .head-text-left{

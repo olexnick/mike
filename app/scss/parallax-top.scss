@@ -14,29 +14,9 @@
   border-radius: 5px;
   padding-left: 35px;
   padding-top: 30px;
-  >button{
-    margin-left: 15px;
-    background-color: rgb(255, 85, 26);
-    box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color : rgb(255, 255, 255);
-    height: 39px;
-  }
-}
-.head-parallax-button{
-  width: 71%;
-  height: 38px;
-  float: left;
-  padding-top: 1px;
-  background-color: rgb(77, 130, 164);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
-  button{
+  box-shadow: 0px 6px 0px 0px rgb(77,130,164);
+  button:first-child{
+    width: 14%;
     float: left;
     background-color: rgb(67, 80, 97);
     color : rgb(255, 255, 255);
@@ -47,13 +27,15 @@
     border-bottom-right-radius: 0px;
     border: none;
     height: 36px;
+    box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
+    outline: 0 !important;
   }
   input{
-    width: 79.1%;
+    width: 60.1%;
     float: left;
     height: 36px;
     border: none;
-    background-color: rgb(172, 218, 243);
+    background-color: #5c7596;
     color:  rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -61,53 +43,61 @@
     padding-left: 7px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
+    outline: 0 !important;
     &::-webkit-input-placeholder{
       color:  rgb(255, 255, 255);
     }
   }
-}
-@media only screen and (max-width: 1024px){
-  .head-parallax-button {
+  button:last-child{
+    width: 23.2%;
+    margin-left: 15px;
+    background-color: rgb(255, 85, 26);
+    box-shadow: 0px 3px 3px rgba(8,0,0,0.5);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color : rgb(255, 255, 255);
     height: 36px;
-    button{
-      font-size: 12px;
-    }
-    input{
-      width: 76.99999%;
-      height: 35px;
-      font-size: 10.5px;
-    }
+    outline: 0 !important;
   }
+}
+.head-parallax img{
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1024px){
   .head-parallax-button-wrapper{
-    button{
+    button:first-child{
+      font-size: 11px;
+    }
+    button:last-child{
       font-size: 11px;
       padding: 3px 12px;
       height: 35px;
     }
+    input{
+      font-size: 10.5px;
+      height: 36px;
+    }
   }
 }
 @media only screen and (max-width: 768px){
-  .head-parallax-button {
-    height: 36px;
-    button{
-      font-size: 10px;
-    }
-    input{
-      width: 72.99999%;
-      height: 35px;
-      font-size: 8.5px;
-    }
-  }
   .head-parallax-button-wrapper{
-    button{
-      font-size: 9px;
+    button:first-child{
+      font-size: 7px;
+    }
+    button:last-child{
+      font-size: 7px;
       padding: 2px 12px;
       height: 35px;
-    }
-  }
-  .head-parallax-button-wrapper{
-     button:last-child{
       margin-left: 5px;
+    }
+    input{
+      font-size: 7.5px;
+      height: 36px;
     }
   }
 }
