@@ -43,6 +43,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: normal;
+    line-height: 21px;
   }
 }
 .footer-logo{
@@ -136,13 +137,16 @@
     font-weight: normal;
     line-height: 1.8;
   }
+  p{
+    padding-top: 35px;
+  }
 }
 .footer-left-botton{
   width: 100%;
   float: left;
   padding-top: 11px;
   button{
-    width: 307px;
+    width: 311px;
     height: 40px;
     background-color: rgb(255, 255, 255);
     float: left;
@@ -153,7 +157,7 @@
 .footer-logo-booton{
   width: 100%;
   float: left;
-  padding-top: 20px;
+  padding-top: 7px;
   img{
     padding-left: 7px;
   }

@@ -157,7 +157,8 @@
   height: 37px;
   background-color: #ff551a;
   color: white;
-  text-decoration-color: white;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
   border-radius: 0px; }
 
 @media only screen and (max-width: 1024px) {
@@ -348,7 +349,8 @@
   border-radius: 5px;
   padding-left: 35px;
   padding-top: 30px;
-  box-shadow: 0px 6px 0px 0px #4d82a4; }
+  -webkit-box-shadow: 0px 6px 0px 0px #4d82a4;
+          box-shadow: 0px 6px 0px 0px #4d82a4; }
   .head-parallax-button-wrapper button:first-child {
     width: 14%;
     float: left;
@@ -361,7 +363,8 @@
     border-bottom-right-radius: 0px;
     border: none;
     height: 36px;
-    box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+            box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
     outline: 0 !important; }
   .head-parallax-button-wrapper input {
     width: 60.1%;
@@ -376,7 +379,8 @@
     padding-left: 7px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+            box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
     outline: 0 !important; }
     .head-parallax-button-wrapper input::-webkit-input-placeholder {
       color: white; }
@@ -384,7 +388,8 @@
     width: 23.2%;
     margin-left: 15px;
     background-color: #ff551a;
-    box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
+            box-shadow: 0px 3px 3px rgba(8, 0, 0, 0.5);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -462,7 +467,8 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   padding-top: 5.55%;
-  color: #7e8c99; }
+  color: #7e8c99;
+  padding-bottom: 7%; }
 
 .main-body-group-text {
   font-family: 'Montserrat', sans-serif;
@@ -779,7 +785,7 @@
   .tabs ul li a {
     padding-top: 17px; } }
 
-.sections-slider {
+r {
   padding-bottom: 127px; }
 
 .carousel-wrapper {
@@ -811,7 +817,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 21px; }
+    line-height: 27px; }
 
 .sections-slider-left-icon {
   padding-top: 40px; }
@@ -829,7 +835,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 21px; }
+    line-height: 27px; }
 
 .sections-slider-left-text-botton {
   padding-top: 55px; }
@@ -897,7 +903,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 21px;
+    line-height: 27px;
     padding-bottom: 36px; }
 
 .emerald {
@@ -962,6 +968,8 @@
 
 .emerald-btn {
   border-radius: 0px !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #51c1ff), to(#51c1ff)) !important;
+  background-image: -o-linear-gradient(top, #51c1ff 0, #51c1ff 100%) !important;
   background-image: linear-gradient(to bottom, #51c1ff 0, #51c1ff 100%) !important;
   background-color: #51c1ff !important; }
 
@@ -1007,7 +1015,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    line-height: 21px; }
+    line-height: 27px; }
 
 @media only screen and (max-width: 1024px) {
   .emerald-wrapper-left {
@@ -1077,7 +1085,8 @@
     padding-top: 13px;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    font-weight: normal; }
+    font-weight: normal;
+    line-height: 21px; }
 
 .footer-logo {
   float: left; }
@@ -1159,13 +1168,15 @@
     font-size: 14px;
     font-weight: normal;
     line-height: 1.8; }
+  .footer-left-botton-text p {
+    padding-top: 35px; }
 
 .footer-left-botton {
   width: 100%;
   float: left;
   padding-top: 11px; }
   .footer-left-botton button {
-    width: 307px;
+    width: 311px;
     height: 40px;
     background-color: white;
     float: left;
@@ -1175,7 +1186,7 @@
 .footer-logo-booton {
   width: 100%;
   float: left;
-  padding-top: 20px; }
+  padding-top: 7px; }
   .footer-logo-booton img {
     padding-left: 7px; }
 
