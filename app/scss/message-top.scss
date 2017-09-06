@@ -1,0 +1,89 @@
+.wrapper-message{
+  display: none;
+}
+.message-sent-text{
+  padding-top: 110px;
+  display: none;
+}
+.wrapper-massege{
+  height: 100%;
+  position: relative;
+  float: left;
+}
+.wrapper-message-icon{
+  position: absolute;
+  float: left;
+  height: 20px;
+  z-index: 51;
+  top: 5px;
+  right: 5px;
+  color: silver;
+}
+.message{
+  width: 274px;
+  height: 270px;
+  position: absolute;
+  float: left;
+  border: 1px solid silver;
+  border-top: 3px solid silver;
+  background-color: #fff;
+  top:25px;
+  right: 25px;
+  z-index: 50;
+  border-radius: 5px;
+  text-align: center;
+  span{
+    width: 100%;
+    float: left;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p{
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  input{
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+  }
+  textarea{
+    margin-top: 5px;
+  }
+  button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 85, 26);
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+.message-input{
+  width: 100%;
+  float: left;
+  padding:5px 25px;
+}
+#err_name{
+  display: none;
+  font-size: 10px;
+  color: red;
+  padding-top: 0px;
+}
+#err_call{
+  display: none;
+  font-size: 10px;
+  color: red;
+  padding-top: 0px;
+}
+#err_question{
+  display: none;
+  font-size: 10px;
+  color: red;
+  padding-top: 0px;
+}

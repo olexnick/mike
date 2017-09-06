@@ -1,0 +1,38 @@
+.body-wraper{
+  width: 100%;
+  text-align: center;
+  span{
+    float: left;
+    width: 100%;
+  }
+}
+.body-top{
+  color: rgb(92, 184, 235);
+}
+.body-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+}
+.body-text{
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  padding-top: 3.7%;
+  color: rgb(126,140,153);
+  font-family: 'Lato', sans-serif !important;
+  line-height: 20px !important;
+}
+@media only screen and (max-width: 1024px){
+  .body-title{
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .body-title{
+    font-size: 20px;
+  }
+  .body-text{
+    font-size: 10px;
+  }
+}

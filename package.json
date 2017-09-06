@@ -8,15 +8,11 @@
     "gulp-sass": "^3.1.0"
   },
   "devDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.5"
+    "gulp-autoprefixer": "^4.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run server & npm run compile",
-    "compile": "webpack --watch",
-    "server": "webpack-dev-server --hot --inline"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alex Gorovikh",
+  "author": "olexnick",
   "license": "ISC"
 }

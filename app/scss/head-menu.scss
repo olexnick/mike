@@ -1,0 +1,119 @@
+.header-bottom-nav{
+  width: 100%;
+  float: left;
+  margin-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 1px solid rgb(221,226,232);
+  border-bottom: 1px solid rgb(229,229,227);
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  a{
+    color: rgb(126, 140, 153);
+  }
+  i{
+    font-size: 16px;
+  }
+}
+.navbar {
+  min-height: 37px;
+}
+.caret{
+    display: none;
+}
+.navbar-brand-menu{
+  display: none;
+}
+.navbar-toggle-btn{
+  border-radius: 0;
+}
+.navbar-toggle{
+  border-radius: 0;
+}
+.navbar-brand-collapse{
+  padding-left: 0;
+  padding-right: 0;
+}
+.main-menu-title{
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+.navbar-nav-ul{
+  width: 100%;
+  li a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+.header-bottom-nav-left{
+  height: 38px;
+  float: left;
+  border-top: 1px solid rgb(221,226,232);
+  border-bottom: 1px solid rgb(229,229,227);
+}
+.header-bottom-nav-right{
+  height: 38px;
+  float: left;
+  border-top: 1px solid rgb(221,226,232);
+  border-bottom: 1px solid rgb(229,229,227);
+}
+.nav-item-li-zero{
+  width: 8.1%;
+  text-align: center;
+  border-right: 1px solid rgb(221,226,232);
+}
+.nav-item-li-first{
+  width: 20.29%;
+  text-align: center;
+  border-right: 1px solid rgb(221,226,232);
+}
+.nav-item-li-second{
+  width: 20.2%;
+  text-align: center;
+  border-right: 1px solid rgb(221,226,232);
+}
+.nav-item-li-therd{
+  width: 20.3%;
+  text-align: center;
+  border-right: 1px solid rgb(221,226,232);
+}
+.nav-item-li-four{
+  width: 10.7%;
+  text-align: center;
+  border-right: 1px solid rgb(221,226,232);
+}
+.nav-item-li-five {
+  width: 10.8%;
+  text-align: center;
+  border-right: 1px solid rgb(221,226,232);
+}
+@media only screen and (max-width: 1024px){
+  .header-bottom-nav-left{
+    display: none;
+  }
+  .header-bottom-nav-right{
+    display: none;
+  }
+  .nav-item-li-first {
+    width: 19.29%;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .navbar-nav-ul{
+    li a{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 11px;
+    }
+  }
+  .header-bottom-nav i {
+
+    font-size: 12px;
+  }
+}

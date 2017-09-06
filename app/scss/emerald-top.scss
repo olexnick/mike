@@ -1,0 +1,58 @@
+.emereld-top-sections{
+  float: left;
+  padding-top: 72px;
+  padding-bottom: 91px;
+}
+.emerald-left-text-top{
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+  :first-child{
+    color: #31a2e1;
+    padding-bottom: 36px;
+  }
+  :last-child{
+    padding-bottom: 26px;
+  }
+  >span{
+    width: 100%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 21px;
+  }
+  >p{
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    font-weight: normal;
+    line-height: 27px;
+    padding-bottom: 36px;
+  }
+}
+.emerald{
+  float: left;
+  height: 525px;
+  button{
+    width:312px;
+    height: 50px;
+    float: left;
+  }
+}
+.emerald-left{
+  float: left;
+  height: 525px;
+  background-color: rgb(49, 162, 225 );
+  color: rgb(255,255,255);
+}
+@media only screen and (max-width: 1024px){
+  .emerald-left-text-top{
+    >span{
+      font-size: 14px;
+    }
+    >p{
+      font-size: 14px;
+    }
+  }
+}
